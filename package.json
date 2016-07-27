@@ -1,0 +1,28 @@
+{
+  "name": "gifme",
+  "version": "1.0.0",
+  "description": "Convert any video file or video readable stream to an animated GIF of desired length and size",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uzil/gifme.git"
+  },
+  "keywords": [
+    "gif",
+    "video",
+    "make",
+    "convert"
+  ],
+  "author": "Kumar Ujjwal <ujjwal25993@live.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uzil/gifme/issues"
+  },
+  "homepage": "https://github.com/uzil/gifme#readme",
+  "dependencies": {
+    "bluebird": "^3.4.1"
+  }
+}
