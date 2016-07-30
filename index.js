@@ -50,12 +50,13 @@ const createFFmpegArgs = (optionsArray) => {
   let args = [];
   args.push('-i', 'pipe:0');
   args.push('-ss', optionsArray.from);
-  args.push('-t', optionsArray.to);
+  args.push('-to', optionsArray.to);
   args.push('-pix_fmt', 'rgb24');
   args.push('-r', optionsArray.fps);
   args.push('-s', optionsArray.width + 'x' + optionsArray.height);
   args.push('-f', 'gif');
   args.push('pipe:1');
+  console.log(args);
   return args;
 };
 
