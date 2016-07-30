@@ -56,7 +56,6 @@ const createFFmpegArgs = (optionsArray) => {
   args.push('-s', optionsArray.width + 'x' + optionsArray.height);
   args.push('-f', 'gif');
   args.push('pipe:1');
-  console.log(args);
   return args;
 };
 
